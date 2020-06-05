@@ -1,0 +1,126 @@
+body {
+  color: white;
+  background-color: black;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+}
+
+.innernav {
+  margin-left: 36%;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: red;
+  color: black;
+}
+
+#boxes {
+  width: 800px;
+  height: 300px;
+  margin-top: 60px;
+  margin-left: 300px;
+  margin-right: 100px;
+  background-color: black;
+}
+#boxes img {
+  height: 400x;
+  width: 245px;
+  border-radius: 15%;
+}
+
+#column1 {
+  background: black;
+  width: 250px;
+  height: 400px;
+  float: left;
+}
+
+#column1:hover .overlay {
+  height: 100%;
+}
+#column2 {
+  background: black;
+  width: 250px;
+  height: 400px;
+  float: left;
+  margin-left: 33px;
+}
+#column3 {
+  background: black;
+  width: 250px;
+  height: 400px;
+  float: right;
+}
+
+#bottombox {
+  margin-top: 100px;
+  margin-left: 220px;
+  margin-right: 210px;
+  height: 200px;
+  width: auto;
+  background: white;
+  border-radius: 25px;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  color: black;
+  text-align: center;
+}
+
+/*
+NBA page CSS
+*/
+
+#nba-boxes {
+  height: 100px;
+  margin-bottom: 30px;
+  margin-left: 150px;
+  margin-right: 100px;
+  background-color: rgb(207, 0, 0);
+  border-radius: 25px;
+}
+
+#nba-boxes img {
+  height: 400x;
+  width: 245px;
+  border-radius: 15%;
+}
+
+#nba-bottombox {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#news-box {
+  display: inline-flex;
+  justify-content: center;
+}
+
+#news-box1 {
+  margin-left: 140px;
+  margin-right: 40px;
+}
+
+#news-box2 {
+  margin-left: 120px;
+  margin-right: 40px;
+}
+
+#news-box img {
+  border-radius: 15%;
+}
